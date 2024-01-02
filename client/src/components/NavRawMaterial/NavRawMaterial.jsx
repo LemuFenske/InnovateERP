@@ -34,7 +34,7 @@ export default function NavRawMaterial() {
   };
 
   return (
-    <div className="w-full bg-blue-700 p-2">
+    <div className="w-full bg-blue-600 p-2">
       <nav className="flex items-center">
         <div className="cursor-pointer" onClick={toggleFilesOptions}>
           <h2 className="hover:underline ml-5">

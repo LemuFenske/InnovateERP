@@ -1,12 +1,13 @@
-import NavAccounting from "@/components/NavAccounting/NavAccounting";
+import NavSales from "@/components/NavSales/NavSales"
 
 export default function Shopping() {
     return (
       <div className='relative h-screen'>
-        <NavAccounting/>
+        <NavSales/>
         <div className='flex justify-center items-center h-full'>
-          <h1 className='text-4xl'>Contabilidad</h1>
+          <h1 className='text-4xl'>Ventas - Informes - Compras</h1>
         </div>
       </div>
     )
   }
+  

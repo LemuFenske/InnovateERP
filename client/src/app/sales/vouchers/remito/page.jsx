@@ -1,12 +1,14 @@
-import NavSales from "@/components/NavSales/NavSales";
 
-export default function Shopping() {
+import NavSales from "@/components/NavSales/NavSales"
+
+export default function Movements() {
     return (
       <div className='relative h-screen'>
         <NavSales/>
         <div className='flex justify-center items-center h-full'>
-          <h1 className='text-4xl'>Ventas</h1>
+          <h1 className='text-4xl'>Ventas - Comprobantes - Remito</h1>
         </div>
       </div>
     )
   }
+  
