@@ -1,4 +1,4 @@
-
+import Clients from '../../../../components/Clients/Clients'
 import NavSales from "@/components/NavSales/NavSales"
 
 export default function Update() {
@@ -6,7 +6,7 @@ export default function Update() {
       <div className='relative h-screen'>
         <NavSales/>
         <div className='flex justify-center items-center h-full'>
-          <h1 className='text-4xl'>Ventas - Actualizacion</h1>
+          <Clients/>
         </div>
       </div>
     )

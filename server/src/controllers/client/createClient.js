@@ -10,6 +10,7 @@ const clientCreator = async (client) => {
 
 const createClient = async (req, res)=> {
     const client = req.body
+    console.log(client);
     try {
         const newClient = await clientCreator(client)
         res.status(200).json(newClient)
