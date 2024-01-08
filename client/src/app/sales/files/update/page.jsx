@@ -1,5 +1,5 @@
-import Clients from '../../../../components/Clients/Clients'
-import NavSales from "@/components/NavSales/NavSales"
+import Clients from '../../../../components/ClientFolder/Clients/Clients'
+import NavSales from "@/components/NavFolder/NavSales/NavSales"
 
 export default function Update() {
     return (

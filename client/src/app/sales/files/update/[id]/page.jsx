@@ -1,6 +1,6 @@
 import React from 'react';
-import NavSales from "@/components/NavSales/NavSales"
-import ClientUpdate from '@/components/ClientUpdate/ClientUpdate';
+import NavSales from "@/components/NavFolder/NavSales/NavSales"
+import ClientUpdate from '@/components/ClientFolder/ClientUpdate/ClientUpdate';
 
 
 export default function Detail({ params }) {

@@ -1,11 +1,12 @@
-import NavRawMaterial from "@/components/NavRawMaterial/NavRawMaterial"
+import NavRawMaterial from "@/components/NavFolder/NavRawMaterial/NavRawMaterial"
+import RawMaterialCreate from "@/components/RawMaterialFolder/RawMaterialCreate/RawMaterialCreate"
 
 export default function InitialCahrge() {
     return (
       <div className='relative h-screen'>
         <NavRawMaterial/>
         <div className='flex justify-center items-center h-full'>
-          <h1 className='text-4xl'>Carga Inicial</h1>
+          <RawMaterialCreate/>
         </div>
       </div>
     )

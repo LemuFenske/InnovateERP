@@ -2,7 +2,7 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchAllClients } from "@/redux/features/clients";
-import ClientCard from "../Client/Client"; // Asegúrate de proporcionar la ruta correcta
+import ClientCard from '../Client/Client';
 
 const Clients = () => {
   const dispatch = useDispatch();

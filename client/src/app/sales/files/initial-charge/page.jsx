@@ -1,5 +1,5 @@
-import NavSales from "@/components/NavSales/NavSales"
-import ClientCreate from "../../../../components/ClientCreate/ClientCreate"
+import NavSales from "@/components/NavFolder/NavSales/NavSales"
+import ClientCreate from "../../../../components/ClientFolder/ClientCreate/ClientCreate"
 
 export default function InitialCahrge() {
     return (

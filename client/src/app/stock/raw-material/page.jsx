@@ -1,4 +1,4 @@
-import NavRawMaterial from "@/components/NavRawMaterial/NavRawMaterial"
+import NavRawMaterial from "@/components/NavFolder/NavRawMaterial/NavRawMaterial"
 
 export default function RawMaterial() {
     return (

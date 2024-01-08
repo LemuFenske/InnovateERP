@@ -1,12 +1,13 @@
 
-import NavShopping from "@/components/NavShopping/NavShopping"
+import NavShopping from "@/components/NavFolder/NavShopping/NavShopping"
+import Suppliers from "@/components/SupplierFolder/Suppliers/Suppliers"
 
 export default function Update() {
     return (
       <div className='relative h-screen'>
         <NavShopping/>
         <div className='flex justify-center items-center h-full'>
-          <h1 className='text-4xl'>Compras - Actualizacion</h1>
+          <Suppliers/>
         </div>
       </div>
     )

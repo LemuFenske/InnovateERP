@@ -1,4 +1,4 @@
-import NavProduction from "@/components/NavProduction/NavProduction"
+import NavProduction from "@/components/NavFolder/NavProduction/NavProduction"
 
 export default function Production() {
     return (

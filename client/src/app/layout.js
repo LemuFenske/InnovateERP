@@ -1,6 +1,6 @@
 import { Inter } from 'next/font/google'
 import './globals.css'
-import NavBar from '@/components/NavBar/NavBar'
+import NavBar from '@/components/NavFolder/NavBar/NavBar'
 import Providers from '@/redux/provider'
 
 

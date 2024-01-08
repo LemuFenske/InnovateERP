@@ -1,4 +1,4 @@
-import NavSales from "@/components/NavSales/NavSales"
+import NavSales from "@/components/NavFolder/NavSales/NavSales"
 
 export default function Shopping() {
     return (

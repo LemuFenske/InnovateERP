@@ -1,5 +1,5 @@
 
-import NavShopping from "@/components/NavShopping/NavShopping"
+import NavShopping from "@/components/NavFolder/NavShopping/NavShopping"
 
 export default function Movements() {
     return (

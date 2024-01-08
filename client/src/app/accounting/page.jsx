@@ -1,4 +1,4 @@
-import NavAccounting from "@/components/NavAccounting/NavAccounting";
+import NavAccounting from "@/components/NavFolder/NavAccounting/NavAccounting";
 
 export default function Shopping() {
     return (
